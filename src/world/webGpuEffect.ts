@@ -6,9 +6,9 @@ import { gui } from '@/utils/guiPane';
 
 export function getRenderPipeline() {
 
-  const strength = uniform(.3)
+  const strength = uniform(.7)
   const radius = uniform(.2)
-  const threshold = uniform(.8) 
+  const threshold = uniform(.5) 
 
   const renderPipeline = new THREE.RenderPipeline(renderer);
   const scenePass = pass(scene, camera);

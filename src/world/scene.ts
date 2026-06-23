@@ -52,6 +52,7 @@ export async function initScene() {
     timer.update()
     control.update()
 
+
     emitter.emit('animate', {
       delta: timer.getDelta(),
       elapsed: timer.getElapsed()
